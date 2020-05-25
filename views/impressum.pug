@@ -1,0 +1,44 @@
+include head
+main.container(role="main")
+    div.impr
+        div.card
+            h3(style="margin-bottom:1em") Impressum
+            h4 Greißlomat e.U.
+            hr
+            p Claudia Eichelberger
+            p 6645 Vorderhornbach 122
+            hr
+            p office@greisslomat.at
+            hr
+            p UID: ATU 74906346
+style.
+    .card p {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0;
+    }
+    .card hr {
+        margin: .5em;
+
+    }
+    .impr {
+        height: 30em;
+        padding: 2em;
+        margin: 1em;
+        background-image: url("/images/impressum.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: .5em;
+    }
+    .card {
+        background: #efefefdd;
+        text-align: center;
+        border-radius: 0.5em;
+        width: 18em;
+        box-shadow: .2em .2em 1em grey;
+        margin: 1em auto;
+        padding: 1em;
+    }
+
+include foot.pug

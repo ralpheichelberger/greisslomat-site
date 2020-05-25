@@ -1,0 +1,40 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #e0e0e0;
+  background-image: url("images/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body>.page-footer {
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body>.container {
+  padding-top: 4em;
+  //padding-bottom: 15em;
+  background: rgb(212, 212, 212,.7);
+}
+
+a {
+  color: #445e8a
+}
+
+footer  {
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+

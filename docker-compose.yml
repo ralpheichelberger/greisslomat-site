@@ -1,0 +1,8 @@
+# docker push eu.gcr.io/greisslomat/greisslomat-site
+version: "3"
+services:
+  greisslomat-site:
+    build: .
+    image: "eu.gcr.io/greisslomat/greisslomat-site:v0.1"
+    ports:
+      - "8080:8080"
