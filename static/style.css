@@ -7,9 +7,9 @@ html {
 
 body {
   background: #e0e0e0;
-  background-image: url("images/Background.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("images/Bild0.png");
+  background-position: top;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -23,7 +23,6 @@ body>.page-footer {
 
 body>.container {
   padding-top: 4em;
-  //padding-bottom: 15em;
   background: rgb(212, 212, 212,.7);
 }
 

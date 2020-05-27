@@ -1,6 +1,8 @@
 include head
 main.container(role="main")  
     div.row.justify-content-center.mt-3
+            img.bild0.content-center(src="/images/Bild0.png")
+    div.row.justify-content-center.mt-3
         h5 Die Lösung
     div.row.justify-content-center.mt-3
         div.col.
@@ -38,7 +40,7 @@ main.container(role="main")
         div.col-8-sm.align-self-center
             ul
                 li viele Regionale Produkte / Förderung lokaler Betriebe
-        div.col-3.d-none.d-md-block
+        div.col-3-sm.d-none.d-md-block
             img(src="/images/Bild3.png")
     div.row.justify-content-center.mt-3
         div.col-3-sm
@@ -53,8 +55,8 @@ main.container(role="main")
             ul
                 li Preis vergleichbar mit anderen Einzelhändlern
                 li Stammkundenrabatte möglich durch Zahlung via mobiler App
-                li verschiedene Zahlungsmöglichkeiten (Münzen, Banknoten, Karten, App,..)
-        div.col-3.d-none.d-md-block
+                li verschiedene Zahlungsmöglichkeiten <br/>(Münzen, Banknoten, Karten, App,..)
+        div.col-3-sm.d-none.d-md-block
             img(src="/images/Bild5.png")
     div.row.justify-content-center.mt-3
         div.col-3-sm
@@ -66,19 +68,104 @@ main.container(role="main")
     div.row.justify-content-center.mt-5
         div.col-2-sm.ml-2
             h5 Weitere Vorteile des Greißlomat-Konzepts:
+    div.row.justify-content-center
         div.col-8-sm.align-self-center
             ul
-               li Nachhaltigkeit durch Reduzierung von unnötigen Autofahrten. (Einer versorgt viele.)
-               li Optimierung von Prozessen möglich durch Automatisierung und Einsatz von intelligenten Warenwirtschaftssystemen (Maschinenlernen)
+               li Nachhaltigkeit durch Reduzierung von unnötigen Autofahrten.<br/> (Einer versorgt viele.)
+               li Optimierung von Prozessen möglich durch Automatisierung<br/> und Einsatz von intelligenten Warenwirtschaftssystemen (Maschinenlernen)
+    div.row.justify-content-center.mt-5
+        div.col-2-sm.ml-2
+            h5 Zielgruppe
+    div.row.justify-content-center
+        div.col-8-sm.align-self-center
+            ul
+                li junge Familien
+                li alleinstehende Personen
+                li ältere Menschen
+                li Mieter von Ferienwohnungen zur Selbstversorgung
+                li Campinggäste
+                li Tagestouristen
+    div.row.justify-content-center.mt-5
+        div.col-2-sm.ml-2
+            h5 Das Problem
+    div.row.justify-content-center.mt-3.d-md-none
+        div.col-3-sm
+            img.bild1.content-center(src="/images/Bild7.png")
+    div.row.justify-content-center.mt-3
+        div.col-2-sm
+            p.
+                In der Gemeinde bzw. im Umkreis von mehr als 2 km ist kein Lebensmittelgeschäft zur Versorgung der Bevölkerung vorhanden, da das Führen eines solchen zB. aus folgenden Gründen unwirtschaftlich ist:
+    div.row.justify-content-center.mt-3
+        div.col-8-sm 
+            ul 
+                li Personalkosten (Ladenöffnungszeiten!)
+                li Immobilie: Anschaffungskosten/Miete; Betriebskosten
+                li geringes Umsatzpotenzial wegen der geringen <br/> Bevölkerungszahl des Einzugsgebietes
+
+            ul Andere Gründe sind zB.:
+                li keine Nachfolger für pensionierte Händler
+                li Abwanderung der jüngeren Bürger
+        div.col-3-sm.d-none.d-md-block
+            img.bild1.content-center(src="/images/Bild7.png")
+    div.row.justify-content-center.mt-3
+        div.col-3-sm
+            img(src="/images/Bild8.png")
+        div.col-8-sm.align-self-center
+            p.
+                Dies hat zur Folge, dass viele Anwohner und auch Touristen 
+                (Ferienwohnungen) in der direkten Umgebung (2 km) keine
+                Einkaufsmöglichkeit für Grundnahrungsmittel vorfinden.    
+    div.row.justify-content-center.mt-3
+        div.col-3-sm.d-md-none
+            img(src="/images/Bild9.png")
+        div.col-8-sm.align-self-center
+            p.
+                Die Bevölkerung ist gezwungen eine größere Entfernung zurückzulegen
+                um sich grundlegende Lebensmittel zu besorgen. Anders gesagt, eine
+                Autofahrt ist notwendig um in ein anderes Dorf fahren zu können um
+                dort einzukaufen, auch wenn nur eine geringe Menge an Lebensmitteln
+                gekauft werden soll.        
+        div.col-3-sm.d-none.d-md-block
+            img(src="/images/Bild9.png")
+    div.row.justify-content-center.mt-3
+        div.col-3-sm
+            img(src="/images/Bild10.png")
+        div.col-8-sm.align-self-center
+            p.
+                Besonders schwierig ist die Situation für Menschen, die nicht mit 
+                dem Auto fahren können oder wollen. Nicht immer steht ein Fahrzeug 
+                zur Verfügung, weil...
+    div.row.justify-content-center.mt-3
+        div.col-3-sm.d-md-none
+            img(src="/images/Bild11.png")
+        div.col-8-sm.align-self-center
+            ul
+                li kein Auto vorhanden
+                li kein Führerschein
+                li Gesundheitliche Gründe
+                li Kosten
+                li Straßenverhältnisse  
+        div.col-3-sm.d-none.d-md-block
+            img(src="/images/Bild11.png")
+    hr
+
 style.
     img{
         border-radius:.5em;
         margin: .3em;
         width: 10rem;
     }
+    p {
+        max-width: 32rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
     h5{
         color: #000066;
     }
+    .bild0{
+        width:100%;
+    }    
     .bild1{
         width:16em;
     }    
